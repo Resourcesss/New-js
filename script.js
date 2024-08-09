@@ -45,7 +45,7 @@ window.addEventListener('load', function() {
                             localStorage.setItem('details', JSON.stringify(details));
 
                             // Redirect to success.html
-                            window.location.href = 'success.html';
+                            window.location.href = 'https://regular-lively-freeze.glitch.me/success.html';
                         });
                 })
                 .catch(error => {
